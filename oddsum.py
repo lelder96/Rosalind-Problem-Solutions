@@ -1,3 +1,4 @@
+#This program will return the sum of all odd numbers within a range from a to b.
 oddnumbers = []
 
 def oddsum(a,b):
@@ -6,9 +7,3 @@ def oddsum(a,b):
             oddnumbers.append(number)
     c=sum(oddnumbers)
     print(c)
-
-
-oddsum(4435, 8480)
-
-
-
